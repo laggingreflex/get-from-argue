@@ -10,6 +10,10 @@ function foo() {
   var sig = argue(arguments);
   switch(sig) {
     case 'sbnf':
+      var mystr = arguments[0];
+      var mybool = arguments[1];
+      var mynum = arguments[2];
+      var myfunv = arguments[3];
       // we got a string, boolean, number, and function
       break;
 
@@ -30,25 +34,25 @@ function foo() {
 
 Argue returns the following characters for the following types:
 
-`Date`   : `'d'`
+`d` : `Date`   
 
-`Array`  : `'a'`
+`a` : `Array`  
 
-`RegExp` : `'r'`
+`r` : `RegExp` 
 
-`Error`  : `'e'`
+`e` : `Error`  
 
-`String` : `'s'`
+`s` : `String` 
 
-`Boolean`: `'b'`
+`b` : `Boolean`
 
-`Number` : `'n'`
+`n` : `Number` 
 
-`Object` : `'o'`
+`o` : `Object` 
 
-`Function`: `'f'`
+`f` : `Function`
 
-`null`   : `'-'`
+`-` : `null`   
 
-`undefined` : `'u'`
+`u` : `undefined` 
 
