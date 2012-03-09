@@ -1,0 +1,10 @@
+{
+  "name": "argue",
+  "description": "Describes signature of arguments passed to a function.",
+  "author": "Adam Blackburn <adam@ifit.com>",
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": ["function", "signature", "arguments", "argue"],
+  "repository": "git://github.com/ifit/argue.git",
+  "homepage": "https://github.com/ifit/argue"
+}
