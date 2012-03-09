@@ -46,6 +46,8 @@ Argue returns the following characters for the following types:
 
 `Object` : `'o'`
 
+`Function`: `'f'`
+
 `null`   : `'-'`
 
 `undefined` : `'u'`

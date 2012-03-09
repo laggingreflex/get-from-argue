@@ -27,4 +27,4 @@ function argue(arguments, specific) {
   return sig.join("");
 };
 
-module.exports = getSignature;
+module.exports = argue;
